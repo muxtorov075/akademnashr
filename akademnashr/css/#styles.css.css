@@ -4,6 +4,12 @@ line-height: 1.5;
 font-family: "Roboto", "Arial", "San-serif";
 letter-spacing: 0.5px;
 }
+
+*:focus{
+  outline: 2px dotted #ff7500;
+  outline-offset: 3px;
+}
+
 /*SITE-HEADER*/
 
 .site-header{
@@ -213,6 +219,6 @@ background-color: rgba(37, 36, 32, a0.5);
   color: #ff7500;
 }
 
-.site-footer-links a:focus {
+.site-footer-links a:active {
   opacity: 0.6;
 }
