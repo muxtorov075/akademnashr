@@ -7,10 +7,19 @@ letter-spacing: 0.5px;
 /*SITE-HEADER*/
 
 .site-header{
-  background-color: #fff;
+ background-color: #fff;
+ display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.site-header-actions{
+display: flex;
+align-items: center;
 }
 /*SITENAV*/
 .sitenav-list{
+display: flex;
 list-style: none;
 }
 
@@ -34,6 +43,9 @@ text-decoration: none;
 }
 /*HERO*/
 .hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #252420;
   color: #fff;
 }
@@ -62,6 +74,14 @@ line-height: 1.2;
 font-family: "Roboto Condensed","Roboto","Arial","San-Serif";
 letter-spacing: 0.5px;
 }
+
+.features-list{
+display: flex;
+justify-content: space-between;
+list-style: none;
+}
+
+
 /*FEATURE*/
 .feature{
 width: 340px;
@@ -82,6 +102,9 @@ font-family: "Roboto Condensed","Roboto","Arial","San-Serif";
 
 /*PROMO*/
 .promo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 background-color: #252420;
 color: #fff;
 }
@@ -109,15 +132,27 @@ object-fit: cover;
 .site-footer{
 background-color: #f8f8f8;
 }
+.site-footer-top{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
 .site-footer ul{
   list-style: none;
+}
+.Site-footer-socials{
+display: flex;
+align-items: center;
 }
 
 .site-footer-divider{
   height: 2px;
 background-color: rgba(37, 36, 32, a0.5);
 }
+.Site-footer-bottom{
+  display: flex;
 
+}
 .site-footer-links{
   width: 224px;
   line-height: 19px;
