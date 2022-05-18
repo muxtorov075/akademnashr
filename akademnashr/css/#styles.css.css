@@ -13,10 +13,16 @@ letter-spacing: 0.5px;
 /*SITE-HEADER*/
 
 .site-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 5px solid #ff7500;
+  padding-top: 16px;
+  padding-bottom: 16px;
  background-color: #fff;
- display: flex;
-align-items: center;
-justify-content: space-between;
+
+
+
 }
 .logo-link{
   transition: opacity 0.4s ease;
@@ -38,7 +44,9 @@ align-items: center;
 /*SITENAV*/
 .sitenav-list{
 display: flex;
+padding: o;
 list-style: none;
+
 }
 
 
@@ -65,7 +73,12 @@ color: #ff7500;
 
 /*MAIN-LINK*/
 .main-link{
+  display: inline-block;
+  padding: 12px  24px;
+  padding: tepa ikki-yon past;
+  border-radius: 4px;
 font-size: 13px;
+font-weight: bold
 line-height: 15px;
 background-color: #ff7500;
 color: #fff;
@@ -87,6 +100,8 @@ transition: opacity 0.4s ease;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
   background-color: #252420;
   color: #fff;
 }
@@ -94,6 +109,7 @@ transition: opacity 0.4s ease;
 .orange-line{
   width: 80px;
   height: 3px;
+  border: 1px solid;
   background-color: #ff7500;
 }
 
@@ -106,8 +122,14 @@ font-family: "Roboto Condensed", "Roboto","Arial","San-Serif";
 .hero-img{
 width: 510px;
 height: 510px;
+border-radius: 8px;
 }
 /*FEATURES*/
+
+.features{
+  padding-top: 210px;
+  padding-bottom:210px;
+}
 .features-heading{
 width: 440px;
 font-size: 72px;
@@ -119,6 +141,7 @@ letter-spacing: 0.5px;
 .features-list{
 display: flex;
 justify-content: space-between;
+padding: 0;
 list-style: none;
 }
 
@@ -129,8 +152,12 @@ width: 340px;
 }
 
 .feature-icon-wrapper{
+display: flex;
+justify-content: space-between;
+align-items: center;
 width: 100px;
 height: 100px;
+border-radius: 50%;
 background-color: rgba(255, 117, 0, 0.2);
 }
 
@@ -143,9 +170,10 @@ font-family: "Roboto Condensed","Roboto","Arial","San-Serif";
 
 /*PROMO*/
 .promo{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-radius: 12px;
 background-color: #252420;
 color: #fff;
 }
@@ -167,10 +195,13 @@ color: #ff7500;
 .promo-img{
 width: 440px;
 height: 440px;
+border-radius: 12px;
 object-fit: cover;
 }
 /*SITE_FOOTER*/
 .site-footer{
+padding-top: 56px;
+padding-bottom: 56px;
 background-color: #f8f8f8;
 }
 .site-footer-top{
@@ -179,11 +210,13 @@ justify-content: space-between;
 align-items: center;
 }
 .site-footer ul{
+  padding: 0;
   list-style: none;
 }
 .Site-footer-socials{
 display: flex;
 align-items: center;
+padding: 0;
 }
 
 .Site-footer-socials a:hover{
@@ -199,7 +232,8 @@ align-items: center;
     }
 
 .site-footer-divider{
-  height: 2px;
+height: 2px;
+border: 0;
 background-color: rgba(37, 36, 32, a0.5);
 }
 .Site-footer-bottom{
