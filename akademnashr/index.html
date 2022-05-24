@@ -12,7 +12,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
 <!--STYLES-->
-<link rel="stylesheet" href="css/#styles.css.css">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/styles.css">
 
 </head>
 <body>
@@ -20,6 +21,7 @@
   <!--SITE HEADER-->
 
   <header class="site-header">
+    <div class="site-header-container Container">
     <a class="logo-link" href="index.html">
       <img src="img/logo.svg.svg" alt="Akademnashr logo" width="227" height="60">
     </a>
@@ -28,31 +30,36 @@
     <!--SITENAV-->
       <nav>
         <ul class="sitenav-list">
-          <li><a class="sitenav-link" href="#">Bosh Sahifa</a></li>
-          <li><a class="sitenav-link" href="#">Kitoblar</a></li>
-          <li><a class="sitenav-link" href="#">Aksiyalar</a></li>
-          <li><a class="sitenav-link" href="#">Kontaktlar</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Bosh Sahifa</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Kitoblar</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Aksiyalar</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Kontaktlar</a></li>
         </ul>
       </nav>
+
       <a class="main-link" href="#">Ro'yhatdan o'tish</a>
     </div>
+  </div>
   </header>
 
   <main>
     <!--HERO-->
     <section class="hero">
+      <div class="hero-container Container">
       <div class="hero-content">
         <hr class="orange-line">
         <h2 class="hero-heading">Pythonda dasturlash asoslari</h2>
-        <p class="hero-text">Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal qo‘llanma. Kitobning har bir bo‘limi uchun maxsus video darslar yozilgan bo‘lib, ularga kitobda ko‘rsatilgan QR kod orqali o‘tish mumkin.</p>
+        <p class="hero-text">Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal qo‘llanma. Kitobning har bir bo‘limi uchun maxsus video darslar yozilgan bo‘lib, ularga kitobda ko‘rsatilgan QR kod orqali o'tish mumkin.</p>
         <a class="main-link" href="#">Buyurtma berish</a>
       </div>
 
      <img class="hero-img" src="img/python-book (2).jpg" alt="Qo'lda ushlab turilgan Phytonda dasturlas asoslari kitobi" width="510" height="510" srcset="img/python-book (2).jpg">
+    </div>
     </section>
 
     <!--FEATURES-->
     <section class="features">
+      <div class="container">
       <hr class="orange-line">
       <h2 class="features-heading">Nega aynan Akademnashr?</h2>
       <ul class="features-list">
@@ -78,25 +85,34 @@
           <p class="feature-info">O’zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, xalqaro buyurtmalarni 10 ish kuni ichida yetkazib beriladi.</p>
         </li>
       </ul>
+    </div>
     </section>
 
 
     <!--AKSIYA-->
+
     <section class="promo">
+      <div class="container">
+        <div class="promo-inner">
       <div class="promo-content">
         <h2 class="promo-heading">Bolalar kitoblari uchun ajoyib aksiya!</h2>
+        <div class="promo-info-wrapper">
         <p class="promo-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
         <p class="promo-text">Aksiyadagi eng katta to’plamda <strong class="promo-highlight">50 ta kitob</strong>ni <strong class="promo-highlight">350 ming</strong> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
+      </div>
         <a class="main-link" href="#">Buyurtma berish</a>
       </div>
 
-      <img class="promo-img" src="img/sale-img.jpg" alt="" aria-readonly="Kitoblar to'plami ustma ust joylangan" width="440" height="440" srcset="img/sale-img.jpg 1x, img/sale-img@2x.jpg 2x">
+      <img class="promo-img" src="img/sale-img.jpg" alt=""  "Kitoblar to'plami ustma ust joylangan" width="440" height="440" srcset="img/sale-img.jpg 1x, img/sale-img@2x.jpg 2x">
+        </div>
+      </div>
     </section>
   </main>
 
   <!--SITE FOOTER-->
   <footer class="site-footer">
     <div  class="site-footer-top">
+      <div class="container">
       <a class="logo-link" href="index.html">
         <img src="img/logo.svg.svg" alt="Akademnashr logo" width="227" height="60">
       </a>
@@ -152,7 +168,8 @@
         <li><a href="#">Bo’sh ish o’rinlari</a></li>
         <li><a href="#">Biz bilan bog’lanish</a></li>
         <li><a href="#">Maxfiylik nizomi</a></li>
-      </ul>
+        </ul>
+      </div>
     </div>
   </footer>
 
