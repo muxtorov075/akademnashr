@@ -20,7 +20,7 @@ outline-offset: 3px;
 
 .container{
   width: 100%;
-  max-width: 1140;
+  max-width: 1140px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -46,9 +46,8 @@ border-top: 5px solid #ff7500;
 
 
 
-}
 .logo-link{
-transition: opacity 0.4s ease;
+  transition: opacity 0.4s ease;
 }
 
 .logo-link:hover{
@@ -290,9 +289,7 @@ padding-bottom: 56px;
 background-color: #f8f8f8;
 }
 .site-footer-top{
-display: flex;
-justify-content: space-between;
-align-items: center;
+  border: 2px solid red;
 }
 .site-footer ul{
   padding: 0;
