@@ -144,11 +144,158 @@ color: #de2e54;
   opacity: 0.6;
 }
 
+.main-link-solid:hover{
+  border-color: transparent;
+background-color: rgba(222, 46, 84, 0.8);
+color: #fff;
+}
+
+.main-link-solid:active{
+  background-color: rgba(222, 46, 84, 0.6);
+  opacity: 1;
+}
+
+.main-link-outline{
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+
+.main-link-outline:hover{
+  border-color: transparent;
+background-color: #de2e54;
+color: #fff;
+}
+
+/*HERO*/
+.hero{
+background-color:#0EB4C1;
+color: #fff;
+}
+
+.hero-container{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.hero-content{
+  width: 500px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.hero-heading{
+margin-top: 0;
+font-family: "Open Sans Condensed","Open Sans","Arial","San-Serif";
+font-size: 36px;
+line-height: 1.2;
+}
+
+.hero-text{
+width: 440px;
+margin-top: 0;
+margin-bottom: 36px;
+}
+
+.hero-img{
+align-self: flex-end;
+}
+
+/*INDEX-SERVICE*/
+.index-services{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.index-services-heading{
+  margin-top: 0;
+  margin-bottom: 56px;
+  font-size: 36px;
+  line-height: 1.2;
+  font-family: "Open Sans Condensed","Open Sans","Arial","San-Serif";
+  color: #000;;
+  text-align: center;
+}
+.index-services-list{
+  width: 864px;
+padding: 0;
+margin: 0;
+margin-bottom: 60px;
+margin-left: auto;
+margin-right: auto;
+list-style: none;
+}
+
+.index-services-item:not(:last-child){
+margin-bottom: 80px;
+}
+
+.index-services{
+  display: flex;
+  align-items: center;
+}
+
+.index-services-img{
+  width: 200px;
+  height: 200px;
+  margin-right: 64px;
+  border-radius: 24px;
+  object-fit: cover;
+  box-shadow:0px  12px  24px -8px,rgba(0, 107, 116, 0.3 );
+}
+
+.index-services-content{
+width: 600px;
+}
+
+.index-services-title{
+margin-top: 0;
+margin-bottom: 24px;
+color: #222;
+}
+
+.index-services-description{
+margin: 0;
+}
+
+.index-services-actions{
+  display: flex;
+  justify-content: center;
+}
+
+/*CTA*/
+.cta{
+padding-top: 64px;
+padding-bottom: 64px;
+background-color:#0EB4C1;
+color: #000;
+}
+
+.cta-heading{
+  margin-top: 0;
+  margin-bottom: 40;
+  font-size: 36px;
+  line-height: 1.2;
+  font-family: "Open Sans","Arial", "sans-serif";
+  text-align: center;
+}
+
+.cta-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-links-item:not(last-child) {
+margin-right: 40px;
+}
+
 /* SITE-FOOTER */
 .site-footer{
   padding-top: 24px;
   padding-bottom: 24px;
-  background-color: #222;
+  background-color:#0EB4C1;
   color: #fff;
 }
 
